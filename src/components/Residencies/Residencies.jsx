@@ -45,5 +45,6 @@ const SliderButtons = () => {
         <button onClick={()=> swiper.slidePrev()}>&lt;</button>
         <button onClick={()=> swiper.slideNext()}>&gt;</button>
     </div>
+    
 );
 };
