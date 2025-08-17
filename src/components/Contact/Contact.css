@@ -42,7 +42,7 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
-.mode .button:hover{
+.mode:hover{
     scale: 1.1;
     box-shadow: var(--shadow);
 

@@ -15,14 +15,14 @@ function App() {
       <div>
         <div className='white-gradient'/>
         <Header />
-        <Hero />
+       <Hero />
       </div>
-      <conpanies/>
+     {/* <conpanies/>
       <Residencies/>
       <Value/>
       <Contact/>
       <GetStarted/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
