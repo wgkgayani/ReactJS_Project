@@ -20,7 +20,7 @@ const Value = () => {
                  {/* lift side*/}
                  <div className="v-left">
                     <div className="image-container">
-                        <img src="./value.png" alt="" />
+                        <img src=".\r9-removebg-preview.png" alt="" />
                     </div>
                  </div>
 

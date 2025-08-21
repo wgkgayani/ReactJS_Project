@@ -20,7 +20,7 @@ const Hero = () => {
               type: "spring"
             }}
             >
-              Discover <br /> Most Suitable <br /> Property
+              Discover <br /> Most Suitable <br /> Vehicles
             </motion.h1>
           </div>
 
@@ -50,7 +50,7 @@ const Hero = () => {
 
             <div className="flexColStart stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} />
+                <CountUp start={1950} end={2000} duration={4}/>
                 <span>+</span>
               </span>
               <span className="secondaryText">Happy Customer</span>
@@ -77,7 +77,7 @@ const Hero = () => {
             type: "spring"
           }}
           className="image-container">
-            <img src=".\th (15).jpeg" alt="" />
+            <img src=".\OIP-removebg-preview.png" alt="" />
           </motion.div>
         </div>
       </div>

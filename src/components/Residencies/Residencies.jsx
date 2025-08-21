@@ -4,13 +4,17 @@ import "swiper/css"
 import './Residencies.css'
 import data from '../../utils/slider.json'
 import { sliderSettings } from '../../utils/common';
+
+
+
+
 const Residencies = () => {
     return (
        <section className='r-wrapper'>
         <div className="paddings innerWidth r-container">
             <div className='r-head flexColStart'>
                 <span className='orangeText'>Best choices</span>
-                <span className='primaryText'>Populer Residencies</span>
+                <span className='primaryText'>Newly Listed Cars For Sale</span>
             </div>
 
             <Swiper {...sliderSettings}>
@@ -32,7 +36,37 @@ const Residencies = () => {
                 ))}
             </Swiper>
         </div>
-       </section>
+
+
+
+        <div className="paddings innerWidth r-container">
+            <div className='r-head flexColStart'>
+                
+                <span className='primaryText'>Trending Car News & Expert Reviews</span>
+            </div>
+
+            <Swiper {...sliderSettings}>
+                <SliderButtons/>
+                {data.map ((card, j) => (
+                    <SwiperSlide key={j}>
+                        <div className="flexColStart r-card">
+                            <img src={card.image} alt="home" />
+
+                            <span className='seconderyText r-price'>
+                                <span style={{color: "orange"}}>$</span>
+                                <span>{card.price}</span>
+                            </span>
+
+                            <span className='primaryText'>{card.name}</span>
+                            <span className='seconderyText'>{card.detail}</span>
+                        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+
+            
+        </div>  
+       </section> 
     );
 };
 
