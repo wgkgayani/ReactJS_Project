@@ -1,7 +1,7 @@
 .hero-wrapper {
     color: black;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     z-index: -1;
     background-color: rgb(244, 224, 196);
     
@@ -73,7 +73,7 @@
 
 /* right side */
 .image-container {
-    width: 35rem;
+    width: 47rem;
     height: 35rem;
     overflow: hidden;
     /*border-radius: 10rem 10rem 0 0;*/

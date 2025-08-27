@@ -1,12 +1,16 @@
 vv-container .imge-container{
     border: 8px rbd(232 232 232);
+    gap: 1rem;
 }
 .v-container>div{
     flex: 1;
+    padding-top: 2rem;
 }
 .v-right{
     gap: 0.5rem;
+    padding-left: 1rem;
 } 
+
 .accordion{
     margin-top: 2rem;
     border: none;
@@ -54,3 +58,13 @@ vv-container .imge-container{
         }
     }
 }
+
+/*.image-container {
+    width: 50rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 10rem 10rem 0 0;
+    border: 8px solid rgba(255, 255, 0, 0);
+  
+   display: flex;
+}*/

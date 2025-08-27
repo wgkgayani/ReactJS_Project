@@ -5,10 +5,10 @@
     flex: 1;
 }
 .c-right{
-    width: 100%;
+    width: 50%;
 }
 .c-left{
-    gap: 0.5rem; 
+    gap: 0.5rem;
 }
 
 .contactModes{
