@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import {HiLocationMarker} from 'react-icons/hi'
+import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 
@@ -9,16 +9,15 @@ const Hero = () => {
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
         <div className="flexColStart hero-left">
-
           <div className="hero-title">
-            <div className="orange-cicle"/>
+            <div className="orange-cicle" />
             <motion.h1
-            initial={{y: "2rem", opacity:0}}
-            animate={{y: 0, opacity:1}}
-            transition={{
-              duration: 2,
-              type: "spring"
-            }}
+              initial={{ y: "2rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                duration: 2,
+                type: "spring",
+              }}
             >
               Discover <br /> Most Suitable <br /> Vehicles
             </motion.h1>
@@ -28,55 +27,58 @@ const Hero = () => {
             <span className="secondaryText">
               find a verify of property that suit you very easily
             </span>
-            <span className="secondaryText" >foget all dificulties in finding a residence for you</span>
+            <span className="secondaryText">
+              foget all dificulties in finding a residence for you
+            </span>
           </div>
 
           <div className="flexCenter search-bar">
-            <HiLocationMarker color="var(--blue)" size={25}/>
+            <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />
             <button className="button">Search</button>
           </div>
 
           {/*count sction*/}
           <div className="flexCenter stats">
-            <div className="flexColStart stat"> {/* flexColStart = span tika column walata despy weema*/}
+            <div className="flexColStart stat">
+              {" "}
+              {/* flexColStart = span tika column walata despy weema*/}
               <span>
                 <CountUp start={8800} end={9000} duration={4} />
                 <span>+</span>
               </span>
               <span className="secondaryText">Primium Products</span>
-              
             </div>
 
             <div className="flexColStart stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4}/>
+                <CountUp start={1950} end={2000} duration={4} />
                 <span>+</span>
               </span>
               <span className="secondaryText">Happy Customer</span>
             </div>
 
             <div className="flexColStart stat">
-                <span>
-                  <CountUp end={29} />
-                  <span>+</span>
-                </span>
+              <span>
+                <CountUp end={29} />
+                <span>+</span>
+              </span>
               <span className="secondaryText">Award Winning</span>
             </div>
           </div>
-
         </div>
 
-       {/* right side */}
+        {/* right side */}
         <div className="flexCenter hero-right">
-          <motion.div 
-          initial={{x: "7rem", opacity:0}}
-          animate={{x: 0, opacity: 1}}
-          transition={{
-            duration: 2,
-            type: "spring"
-          }}
-          className="image-container">
+          <motion.div
+            initial={{ x: "7rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 2,
+              type: "spring",
+            }}
+            className="image-container"
+          >
             <img src=".\OIP-removebg-preview.png" alt="" />
           </motion.div>
         </div>
