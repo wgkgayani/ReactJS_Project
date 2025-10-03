@@ -2,37 +2,37 @@
   {
     "name": "Rolls-Royce Boat Tail",
     "price": "28 million",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "JAnother very exclusive Rolls-Royce, made by coachbuilders. Yacht-inspired design, tailored to client.",
     "image": "./r2.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Bugatti La Voiture Noire",
+    "price": "18.7 million",
+    "detail": "One-of-a-kind hypercar from Bugatti; striking design, incredible power and exclusivity.",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Pagani Zonda HP Barchetta",
+    "price": "17 million",
+    "detail": "Limited edition, high-performance Italian hypercar. Very rare.",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "SP Automotive Chaos",
+    "price": "14-15 million",
+    "detail": "Hypercar with futuristic design, very limited production.",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Rolls-Royce Sweptail",
+    "price": "13 million",
+    "detail": "One-off coach-built Rolls-Royce. Yacht-like luxury and very high bespoke features.",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Bugatti Centodieci",
+    "price": "9 million",
+    "detail": "Limited run (10 units); inspired by Bugatti’s history (EB110), very powerful and collectible.",
     "image": "./r3.png"
   }
 ]

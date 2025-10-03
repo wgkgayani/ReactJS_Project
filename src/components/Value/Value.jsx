@@ -31,9 +31,11 @@ const Value = () => {
           <span className="orangeText">Our Value</span>
           <span className="primaryText">Value We Give to You</span>
           <span className="seconderyText">
-            We always ready to help by providing the best services for you.
+            We are committed to providing you with the best car buying and
+            selling experience.
             <br />
-            We beleive a good blace to live can make your life better
+            Our focus is on trust, transparency, and customer satisfaction, so
+            you can drive with peace of mind.
           </span>
 
           <Accordion

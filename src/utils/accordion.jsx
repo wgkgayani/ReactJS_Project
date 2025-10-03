@@ -2,22 +2,22 @@ import { HiShieldCheck } from "react-icons/hi";
 import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
-    icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    icon: <HiShieldCheck />,
+    heading: "Wide Selection of Premium Vehicles",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "From luxury cars to budget-friendly options, we bring you a carefully curated collection to suit every lifestyle.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Best Market Prices",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We ensure competitive pricing so you always get the best value for your money.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "After-Sales Service",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Our commitment doesn’t end with a purchase — enjoy after-sales assistance, servicing, and support whenever you need.",
   },
 ];
 export default data;
