@@ -19,7 +19,7 @@ const Value = () => {
         <span className="orangeText">Our Value</span>
 
         <span className="primaryText">Value We Give to You</span>
-        <br />
+
         <span className="seconderyText">
           We are committed to providing you with the best car buying and selling
           experience.
