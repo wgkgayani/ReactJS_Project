@@ -1,12 +1,12 @@
 :root {
-  --primary: #1f3e72;
-  --secondary: rgba(255, 255, 255, 0.78);
+  --primary: #000000;
+  --secondary: #48b5aa;
   --black: #131110;
-  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
-  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
-  --blue: #4066ff;
-  --lightBlue: #eeeeff;
-  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --blue-gradient: linear-gradient(97.05deg, #131110 0.76%, #48b5aa 100%);
+  --orange-gradient: linear-gradient(270deg, #131110 0%, #eeeeff 100%);
+  --blue: #131110;
+  --lightBlue: #669793;
+  --shadow: 0px 23px 21px -8px #48b5aa;
 }
 
 * {
@@ -67,13 +67,13 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: var(--primary);
   font-weight: bold;
   font-size: 2rem;
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
+  color: rgb(0, 0, 0);
   font-size: 0.9rem;
 }
 .orangeText {
@@ -82,7 +82,7 @@ a {
   font-weight: 600;
 }
 
-.button{
+.button {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   color: white;
@@ -92,7 +92,7 @@ a {
   transition: all 300ms ease-in;
 }
 
-.button:hover{
+.button:hover {
   cursor: pointer;
   transform: scale(1.1);
 }

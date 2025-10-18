@@ -11,7 +11,7 @@ const data = [
     icon: <MdCancel />,
     heading: "Best Market Prices",
     detail:
-      "We ensure competitive pricing so you always get the best value for your money.",
+      "Best Market Prices:— We ensure competitive pricing so you always get the best value for your money. Every thing for your best marcket price.",
   },
   {
     icon: <MdAnalytics />,
