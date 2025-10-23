@@ -17,6 +17,7 @@
 
 .h-menu > *:hover {
   cursor: pointer;
+  color: #000000;
 }
 
 .menu-icon {

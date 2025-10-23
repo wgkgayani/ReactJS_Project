@@ -12,21 +12,13 @@ const Footer = () => {
             the best place to live for them.
           </span>
           <div className="f-social">
-            <span>Follow us:</span>
+            {/* <span>Follow us:</span>
             <div className="social-links">
-              <a href="#" aria-label="Facebook">
-                📘
-              </a>
-              <a href="#" aria-label="Twitter">
-                🐦
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                💼
-              </a>
-              <a href="#" aria-label="Instagram">
-                📷
-              </a>
-            </div>
+              <a href="#" aria-label="Facebook"></a>
+              <a href="#" aria-label="Twitter"></a>
+              <a href="#" aria-label="LinkedIn"></a>
+              <a href="#" aria-label="Instagram"></a>
+            </div>*/}
           </div>
         </div>
 

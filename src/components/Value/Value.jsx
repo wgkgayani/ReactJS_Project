@@ -16,23 +16,16 @@ const Value = () => {
   return (
     <section className="v-wrapper" id="Value">
       <div className="padding innerWidth flexCenter v-container">
-        <span className="orangeText">Our Value</span>
-
-        <span className="primaryText">Value We Give to You</span>
-
-        <span className="seconderyText">
-          We are committed to providing you with the best car buying and selling
-          experience.
-          <br />
-          <span>
-            Our focus is on trust, transparency, and customer satisfaction, so
-            you can drive with peace of mind.
-          </span>
-        </span>
-
-        {/* lift side*/}
-
+        {/* left side */}
         <div className="v-left">
+          <div className="text-container">
+            <span className="orangeText">Our Value</span>
+            <span className="primaryText">Value We Give to You</span>
+            <span className="seconderyText">
+              We are committed to providing you with the best car buying and
+              selling experience.
+            </span>
+          </div>
           <div className="image-container">
             <img src=".\r5-removebg-preview.png" alt="" />
           </div>
