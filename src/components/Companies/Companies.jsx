@@ -1,16 +1,16 @@
 import React from 'react' ;
-import './Companies.css'
-const Companies = () => {
+import './companies.css'
+const companies = () => {
     return (
         <secttion className="c-wrapper">
             <div className='paddings innerWidth flexCenter c-container'>
-                <img src=".\OIP (26).jpg" alt="" />
-                <img src=".\r4.jpg" alt="" />
-                <img src=".\OIP (21).jpg" alt="" />
-                <img src=".\OIP (25).jpg" alt="" />
+                <img src="./prologis.png" alt="" />
+                <img src="./tower.png" alt="" />
+                <img src="./equinix.png" alt="" />
+                <img src="./realty.png" alt="" />
             </div>
         </secttion>
     );
 };
 
-export default Companies; 
+export default companies;
